@@ -1,13 +1,5 @@
 function redirectOnlineCajazeiras(){
-
-    $.ajax({
-      url:"https://www.iescolaronline.com.br/",
-      method: 'GET',
-      success: function(data){
-        console.log(data)
-      }
-    });
-
+  window.location.replace("http://www.iescolaronline.com.br");
 };
 
 function redirectOnlineBayeux(){
