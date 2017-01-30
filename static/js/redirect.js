@@ -1,7 +1,7 @@
 function redirectOnlineCajazeiras(){
 
     $.ajax({
-      url:"www.iescolaronline.com.br/",
+      url:"https://www.iescolaronline.com.br/",
       method: 'GET',
       success: function(data){
         console.log(data)
