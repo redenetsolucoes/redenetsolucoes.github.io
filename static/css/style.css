@@ -83,6 +83,10 @@ a:hover{
 
 @media (max-width: 466px) {
 
+  .modal-center {
+    width: 90%;
+  }
+
   .font-hallelujah--big {
     font-size: 26px;
   }
