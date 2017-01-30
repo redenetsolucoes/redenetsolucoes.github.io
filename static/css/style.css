@@ -81,6 +81,25 @@ a:hover{
     text-decoration: none;
 }
 
+.backdrop {
+  z-index: 1;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.8;
+}
+
+.img-loader {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/gifs/loader.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50px;
+}
+
 @media (max-width: 466px) {
 
   .modal-center {
